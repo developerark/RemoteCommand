@@ -30,7 +30,7 @@ while True:
     try:
         os.system(command)
     except Exception as e:
-        print("Ho", str(e))
+        print(str(e))
 
 connection.close()
 
